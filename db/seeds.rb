@@ -3,6 +3,6 @@
 #
 # Examples:
 #
-   @restaurants = Restaurant.create([{ name: 'Scandal', address: 'Washington D.C.', category: 'japanese' }, { name: 'House of Cards', address: 'White House', category: 'italian' }, { name: 'Prison Break', address: 'USA', category: 'french' }, { name: 'Suits', address: 'NYC', category: 'chinese' }, { name: 'Inspector Cluseau', address: 'Nile', category: 'belgian' }])
+   restaurants = Restaurant.create([{ name: 'Scandal', address: 'Washington D.C.', category: 'japanese', phone_number: '1' }, { name: 'House of Cards', address: 'White House', category: 'italian', phone_number: '1' }, { name: 'Prison Break', address: 'USA', category: 'french', phone_number: '1' }, { name: 'Suits', address: 'NYC', category: 'chinese', phone_number: '1' }, { name: 'Inspector Cluseau', address: 'Nile', category: 'belgian', phone_number: '1' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
